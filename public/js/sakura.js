@@ -123,7 +123,7 @@ function createSakura() {
       'style',
       'position: fixed;left: 0;top: 0;pointer-events: none;'
     )
-    canvas.setAttribute('id', idSakura)
+    canvas.setAttribute('id', 'canvas_sakura')
     document.getElementsByTagName('body')[0].appendChild(canvas)
     cxt = canvas.getContext('2d')
     var sakuraList = new SakuraList()
