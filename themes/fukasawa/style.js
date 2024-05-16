@@ -20,6 +20,11 @@ const Style = () => {
         break-inside: avoid-column;
         margin-bottom: .5rem;
     }
+
+    #theme-fukasawa {
+        background-color: #D9AFD9;
+        background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
+    }
     
     /* 大屏幕（宽度≥1024px）下显示3列 */
     @media (min-width: 1024px) {
